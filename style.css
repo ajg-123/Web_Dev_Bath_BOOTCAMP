@@ -1,0 +1,80 @@
+/* google fonts imported */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url();
+li, a , button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 50;
+    font-size: 22px;
+    color: rgba(241, 245, 249, 1);
+}
+.logo {
+    margin-top: auto; margin-left: auto;
+    cursor: pointer; 
+    font-family: 'Lato', sans-serif;
+    font-weight: 50;
+    font-size: 36px;
+    color: rgba(241, 245, 249, 1);
+    justify-content: center; align-items: center;
+    left: 0;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-sizing: border-box;
+     margin: 0; padding: 0; 
+     background-color: rgba(35, 75, 76, 1);
+     text-decoration: none;
+}
+
+
+
+nav{display:flex;
+justify-content: center;}
+.nav_links {
+    list-style: none;
+}
+.nav_links li { 
+    display: inline-block;
+    padding: 0 20px;  
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{color: red;}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(241, 245, 249, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:rgba(35, 75, 76, 1); ;
+}
+button:hover {
+    background-color: rgba(241, 245, 249, 0.5); 
+}
+.cta {padding:25px;
+}
+
+main {min-height: 100%;
+    background-image: url(img/amauri-mejia-GvF7RkA-E9Q-unsplash\ 1.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+footer{
+    position: fixed;
+    left: 0; bottom: 0; width: 100%; background-color:rgba(35, 75, 76, 1) ;
+    padding: 0.5%;
+    box-sizing: border-box;
+    height: 50px;
+}
